@@ -1,0 +1,239 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+body{
+background: url("http://bamaminigolf.com/wp-content/uploads/2018/03/fonds-d-cran-windows-10-gullm-info-informatique-et-site-avec-fond-d-cran-windows-10-idees-et-windows-10-epure-488-avec-2560x1600px.jpg");
+
+}
+
+#header{
+    width: 100%;
+    height: 230px;
+    background-image: url("https://www.trivadis.com/sites/default/files/header/background/header_trivadis-blogs_1920x642px_0.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Shift', sans-serif;
+}
+#header h2 {
+    font-size: 4em;
+    position: relative;
+    top: 15px;
+    left: 400px;
+    display: inline;
+}
+#header p {
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    top: 60px;
+    left: 60px;
+    display: inline
+}
+#menu {
+    position: relative;
+    top: 60px;
+    left: 340px;
+    display: inline-block;
+
+}
+#menu li{
+    font-weight: bold;
+    display: inline;
+    text-transform: uppercase;
+    margin-right: 14px;
+}
+#menu input {
+    font-size: 0.7em;
+    text-transform: lowercase;
+    text-align: right;
+    position: relative;
+    top: -4px;
+}
+.l{
+  /* height: 340px; */
+    width: 340px;
+  display: inline-block;
+  margin-right: 50px;
+
+
+}
+.container img{
+  display: inline-block;
+}
+
+
+
+a:link{
+  color:green;
+  text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+p{
+  color: white;
+  display: block;
+}
+.b{
+  text-align: center;
+  background: #0000;
+  color:white;
+}
+.b h2{
+
+  text-align: center;
+}
+.b h3{
+  margin-left: 500px;
+  margin-top: -40px;
+}
+.a{
+  height: 286px;
+  text-align: center;
+  background: #0000;
+  color:white;
+}
+.a h2{
+  text-align: center;
+}
+.c{
+  height: 0.1px;
+  text-align: center;
+  background: #0000;
+  color:white;
+  height:100px;
+}
+.c h2{
+  text-align: center;
+  position: relative;
+  margin-left: 80px;
+}
+.background{
+  width:100%;
+  height:100px;
+  transition:all 0.7s ease;
+  background-size:cover;
+  background-image:url("https://ensemble.000webhostapp.com/wp-content/uploads/2017/04/blogging_2.jpg");
+}
+nav{
+ text-align:center;
+ font-size:25px;
+ width:100%;
+ height:40px;
+ padding-top:-10px;
+ font-family:monospace;
+ background-color:white;
+ opacity:1;
+}
+nav a {
+ text-decoration:none;
+ color:white;
+ font-size:25px;
+ transition:0.7s ease 0s;
+ margin-right:70px;
+ margin-left:70px;
+}
+nav a:hover{
+ color:lawngreen;
+ transition:0.7s ease 0s;
+}
+li{
+ display:inline-block;
+}
+i:hover{
+ color:mediumaquamarine;
+ opacity:0.7;
+ transition:0.7s ease 0s;
+}
+.heading{
+ text-align:center;
+ font-family:monospace;
+ font-size:5em;
+ color: white;
+ margin: 0;
+}
+#contact_form{
+ text-shadow:0 0 0 #FFF;
+ border-radius:25px;
+ background:rgba(0,0,0,0.8);
+ width:30%;
+
+
+
+}
+address {
+    display: block;
+    font-style: italic;
+    position: relative;
+    left: 80px;
+    color: white;
+}
+@media screen and (max-width: 420px){
+
+#header{
+  width: 100%;
+
+
+}
+#header h2{
+font-size: 2em;
+left: 0px;
+
+}
+
+#header p{
+  font-size: 2em;
+  position: relative;
+  left: 0px;
+  margin-left: -170px;
+  margin-top: 0px;
+}
+
+#menu {
+  width: 100%;
+  left: 0px;
+  position: relative;
+  left: 0px;
+  margin-left: -40px;
+  margin-top: 0px;
+}
+img{
+  width: 100%;
+  height: 300px;
+  margin-right: 0px;
+}
+address {
+  position: relative;
+  left: 0px;
+  color: white;
+  width: 100%
+}
+#contact_form{
+width: 100%;
+}
+iframe{
+  width: 100%;
+}
+.a {
+   height: 286.1px;
+   text-align: center;
+   background: #0000;
+   color: white;
+}
+.c{
+  height: 0.1px;
+  text-align: center;
+  background: #0000;
+  color:white;
+  height:100px;
+  width: 100%;
+}
+}
